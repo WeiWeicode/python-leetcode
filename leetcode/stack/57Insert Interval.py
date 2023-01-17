@@ -3,6 +3,8 @@
 # Insert newInterval into intervals such that intervals is still sorted in ascending order by starti and intervals still does not have any overlapping intervals (merge overlapping intervals if necessary).
 
 # Return intervals after the insertion.
+# 中文
+# 你被給了一個非重疊的區間陣列 intervals ，其中 intervals[i] = [starti, endi] 表示第 i 個區間開始於 starti 和結束於 endi 。另給你一個區間 newInterval = [start, end] ，表示一個新的區間開始於 start 和結束於 end 。
 
  
 
