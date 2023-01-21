@@ -56,17 +56,26 @@ def create_linked_list(lst):
 
 # 印出答案
 list1 = [1, 2, 4]
-list2 = [1, 3, 4]
+# list2 = [1, 3, 4]
+
+
+# list1 = []
+# list2 = []
+
+# list1 = []
+list2 = [0]
+
+
+
 linked_list1 = create_linked_list(list1)
 linked_list2 = create_linked_list(list2)
-
 merged_list = Solution().mergeTwoLists(linked_list1, linked_list2)
 
-# 印出答案
+    
 while merged_list:
     print(merged_list.val)
     merged_list = merged_list.next
-    
+
 
 
 # 指針演算法：使用一個dummy node，並使用一個指針指向dummy node，並透過比較兩個區間的起始時間來合併兩個區間，將結果加入結果陣列中。
