@@ -1,2 +1,3 @@
 s = "hellotest"
-print (s[::-1])
+i = s[::-1]
+print (i)
